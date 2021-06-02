@@ -223,7 +223,8 @@ a {
   }
   .main__content {
     height: 80%;
-    background: red;
+
+    background: green;
   }
   .main__heading {
     height: 20%;
