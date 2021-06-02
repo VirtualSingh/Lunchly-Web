@@ -258,6 +258,9 @@ a {
     height: 20rem;
     width: 15rem;
   }
+  .items {
+    background: red;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
