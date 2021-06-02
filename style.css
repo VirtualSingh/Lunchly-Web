@@ -307,7 +307,6 @@ a {
 .item__title {
   font-family: var(--sans-font);
   font-size: 1.4rem;
-  /* color: var(--color-secondary); */
   font-weight: 700;
 }
 .content__description {
@@ -338,7 +337,6 @@ a {
 }
 
 .description {
-  margin-top: 5rem;
   height: 10rem;
   font-size: 1.6rem;
   font-family: var(--sans-font);
@@ -350,6 +348,11 @@ a {
   align-items: center;
 }
 
+@media only screen and (min-width: 56.25em) {
+  .description {
+    margin-top: 5rem;
+  }
+}
 .description::before {
   content: "";
   position: absolute;
@@ -369,6 +372,6 @@ a {
     padding: 1rem;
   }
   .description {
-    height: 15rem;
+    height: 10rem;
   }
 }
