@@ -258,9 +258,6 @@ a {
     height: 20rem;
     width: 15rem;
   }
-  .items {
-    background: red;
-  }
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -268,6 +265,7 @@ a {
     margin-top: 2rem;
     width: 95%;
     padding: 4rem;
+    background: red;
   }
   .main__heading {
     padding-left: 3rem;
