@@ -266,7 +266,7 @@ a {
     margin-top: 2rem;
     width: 95%;
     padding: 4rem;
-    height: 60%;
+    height: 50%;
   }
   .main__heading {
     padding-left: 3rem;
@@ -275,7 +275,7 @@ a {
 @media only screen and (max-width: 26.5625em) {
   .items {
     padding: 1rem;
-    height: 60%;
+    height: 50%;
   }
 }
 .item__img {
