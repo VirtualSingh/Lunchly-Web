@@ -237,6 +237,7 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 2rem;
   display: grid;
+  background-color: #f50b0b;
 }
 
 .item {
@@ -373,5 +374,6 @@ a {
   }
   .description {
     height: 5rem;
+    background-color: green;
   }
 }
