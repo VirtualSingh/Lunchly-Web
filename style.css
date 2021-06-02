@@ -270,6 +270,11 @@ a {
     padding-left: 3rem;
   }
 }
+@media only screen and (max-width: 26.5625em) {
+  .items {
+    padding: 1rem;
+  }
+}
 .item__img {
   height: 11rem;
   width: 11rem;
@@ -337,10 +342,12 @@ a {
   height: 10rem;
   font-size: 1.6rem;
   font-family: var(--sans-font);
-  margin-left: 3rem;
-  width: 70%;
+  width: 80%;
   padding: 3rem;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .description::before {
@@ -348,11 +355,20 @@ a {
   position: absolute;
   height: 2px;
   background: var(--color-primary);
+  left: 3rem;
   width: 30%;
   bottom: 1rem;
 }
 @media only screen and (min-width: 56.25em) {
   .description {
     display: none;
+  }
+}
+@media only screen and (max-width: 26.5625em) {
+  .items {
+    padding: 1rem;
+  }
+  .description {
+    height: 15rem;
   }
 }
