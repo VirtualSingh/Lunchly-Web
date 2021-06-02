@@ -237,7 +237,6 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 2rem;
   display: grid;
-  background-color: #f50b0b;
 }
 
 .item {
@@ -338,7 +337,6 @@ a {
 }
 
 .description {
-  height: 10rem;
   font-size: 1.6rem;
   font-family: var(--sans-font);
   width: 80%;
@@ -368,12 +366,19 @@ a {
     display: none;
   }
 }
+
+@media only screen and (max-width: 56.25em) {
+  .description {
+    height: 4rem;
+    background-color: rebeccapurple;
+  }
+}
+
 @media only screen and (max-width: 26.5625em) {
   .items {
     padding: 1rem;
   }
   .description {
     height: 5rem;
-    background-color: green;
   }
 }
